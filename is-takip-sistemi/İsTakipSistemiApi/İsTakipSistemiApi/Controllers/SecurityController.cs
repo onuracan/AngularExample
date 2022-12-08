@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace IsTakipSistemiApi.Controllers;
+namespace IsTakipSistemi.API.Controllers;
 
 [ApiController]
 [Route("api/security")]
