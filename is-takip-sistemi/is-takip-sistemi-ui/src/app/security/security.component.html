@@ -4,13 +4,21 @@
             <div class="text-center">
                 <h3 class="text-primary">İş Takip Sistemi </h3>
             </div>
-            <form action="">
+            <form [formGroup]="frmLogin" (ngSubmit)="onSubmit(frmLogin.value)">
                 <div class="p-4">
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Kullanıcı Adı">
+                        <input type="text" class="form-control" placeholder="Kullanıcı Adı" formControlName="userName"
+                            [ngClass]="{'is-invalid':submitted && component['userName'].errors}">
+                        <div class="invalid-feedback" *ngIf="submitted && component['userName'].errors">
+                            <div *ngIf="component['userName'].errors">Kullanıcı Adı 5 ile 20 karakter arasında olmalıdır.</div>
+                        </div>
                     </div>
                     <div class="input-group mb-3">
-                        <input type="password" class="form-control" placeholder="Şifre">
+                        <input type="password" class="form-control" placeholder="Şifre" formControlName="password"
+                            [ngClass]="{'is-invalid': submitted && component['password'].errors}">
+                        <div *ngIf="submitted && component['password'].errors" class="invalid-feedback">
+                            <div *ngIf="component['password'].errors">Şifre 5 ile 20 karakter arasında olmalıdır.</div>
+                        </div>
                     </div>
                     <button class="btn btn-primary text-center mt-2" type="submit">Giriş Yap</button>
                 </div>
