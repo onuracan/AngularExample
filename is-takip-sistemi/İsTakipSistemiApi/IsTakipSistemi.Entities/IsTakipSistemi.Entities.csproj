@@ -14,4 +14,10 @@
     <ProjectReference Include="..\IsTakipSistemi.Core\IsTakipSistemi.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Enums\" />
+    <Folder Include="Dto%27s\" />
+    <Folder Include="Partial\" />
+  </ItemGroup>
+
 </Project>

@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SecurityComponent } from './security/security.component';
 import { HomeComponent } from './home/home.component';
+import { SecurityGuard } from './security-guard/security-guard';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,7 @@ import { HomeComponent } from './home/home.component';
     AppRoutingModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [SecurityGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
