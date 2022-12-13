@@ -11,7 +11,13 @@ public partial class ITS_USER : EntityBase
     [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]
     public string Id { get; set; }
-    public string UserName { get; set; } 
+
+    [System.Runtime.Serialization.DataMember]
+    public string UserName { get; set; }
+
+    [System.Runtime.Serialization.DataMember]
     public string Password { get; set; }
+
+    [System.Runtime.Serialization.DataMember]
     public string NameAndSurname { get; set; }
 }
