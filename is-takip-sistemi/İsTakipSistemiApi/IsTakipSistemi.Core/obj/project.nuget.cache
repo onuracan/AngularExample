@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0EA8TcWL6qByPczI4ekqp7uxztwrOp5v7LxOtW/o22lRPRRKeG9EzxKW2wrahgDgKVphdF7M1dVaa+On3IpNPQ==",
+  "dgSpecHash": "5H1Euk8ll7qqMQPeBz8P3ZHsLQRi8mcwFNSXFgkIYGtaa7XYjKCbyakb500HY1zJO5FKnbpuJtnnPq+6lLGgng==",
   "success": true,
-  "projectFilePath": "D:\\AngularExample\\is-takip-sistemi\\İsTakipSistemiApi\\IsTakipSistemi.Core\\IsTakipSistemi.Core.csproj",
+  "projectFilePath": "D:\\AngularExample\\AngularExample\\is-takip-sistemi\\İsTakipSistemiApi\\IsTakipSistemi.Core\\IsTakipSistemi.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

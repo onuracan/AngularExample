@@ -1,26 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AngularExample\\is-takip-sistemi\\İsTakipSistemiApi\\İsTakipSistemiApi\\IsTakipSistemi.API.csproj": {}
+    "D:\\AngularExample\\AngularExample\\is-takip-sistemi\\İsTakipSistemiApi\\İsTakipSistemiApi\\IsTakipSistemi.API.csproj": {}
   },
   "projects": {
-    "D:\\AngularExample\\is-takip-sistemi\\İsTakipSistemiApi\\İsTakipSistemiApi\\IsTakipSistemi.API.csproj": {
+    "D:\\AngularExample\\AngularExample\\is-takip-sistemi\\İsTakipSistemiApi\\İsTakipSistemiApi\\IsTakipSistemi.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AngularExample\\is-takip-sistemi\\İsTakipSistemiApi\\İsTakipSistemiApi\\IsTakipSistemi.API.csproj",
+        "projectUniqueName": "D:\\AngularExample\\AngularExample\\is-takip-sistemi\\İsTakipSistemiApi\\İsTakipSistemiApi\\IsTakipSistemi.API.csproj",
         "projectName": "IsTakipSistemi.API",
-        "projectPath": "D:\\AngularExample\\is-takip-sistemi\\İsTakipSistemiApi\\İsTakipSistemiApi\\IsTakipSistemi.API.csproj",
-        "packagesPath": "C:\\Users\\Power\\.nuget\\packages\\",
-        "outputPath": "D:\\AngularExample\\is-takip-sistemi\\İsTakipSistemiApi\\İsTakipSistemiApi\\obj\\",
+        "projectPath": "D:\\AngularExample\\AngularExample\\is-takip-sistemi\\İsTakipSistemiApi\\İsTakipSistemiApi\\IsTakipSistemi.API.csproj",
+        "packagesPath": "C:\\Users\\oacan\\.nuget\\packages\\",
+        "outputPath": "D:\\AngularExample\\AngularExample\\is-takip-sistemi\\İsTakipSistemiApi\\İsTakipSistemiApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Power\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\oacan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -51,7 +53,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -63,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
